@@ -1,0 +1,10 @@
+.newsGroupChild {
+  position: absolute;
+  top: 569px;
+  left: 1442px;
+  background-color: var(--color-palegoldenrod);
+  width: 1442px;
+  height: 480px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}

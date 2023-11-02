@@ -1,0 +1,148 @@
+.grandmotherIcon {
+  position: absolute;
+  top: 228px;
+  left: 1115px;
+  width: 368px;
+  height: 604px;
+  object-fit: cover;
+}
+.frameChild {
+  position: absolute;
+  top: 30px;
+  left: calc(50% - 247px);
+  border-radius: var(--br-20xl);
+  border: 3px solid var(--color-gold);
+  box-sizing: border-box;
+  width: 838px;
+  height: 576px;
+}
+.tIcon {
+  position: absolute;
+  top: 181px;
+  left: 43px;
+  width: 409px;
+  height: 648px;
+  object-fit: cover;
+}
+.frameItem {
+  position: absolute;
+  top: 73px;
+  left: 380px;
+  border-radius: 50%;
+  background-color: var(--color-khaki-200);
+  width: 73px;
+  height: 73px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.ellipseDiv,
+.frameInner {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-lightskyblue);
+  width: 37px;
+  height: 36px;
+}
+.ellipseDiv {
+  background-color: var(--color-lightgreen-100);
+  width: 37.5px;
+  height: 37.5px;
+  transform: rotate(-8.82deg);
+  transform-origin: 0 0;
+}
+.frameChild1,
+.frameChild2 {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-khaki-200);
+  width: 36px;
+  height: 36px;
+}
+.frameChild2 {
+  background-color: var(--color-burlywood-200);
+  width: 35px;
+  height: 35px;
+}
+.ellipseParent {
+  position: absolute;
+  top: 584px;
+  left: 982px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-5xs);
+  gap: var(--gap-10xs);
+}
+.p {
+  margin: 0;
+}
+.div,
+.div1 {
+  position: absolute;
+}
+.div {
+  top: 240px;
+  left: calc(50% - 119px);
+  white-space: pre-wrap;
+  text-align: center;
+}
+.div1 {
+  top: 159px;
+  left: calc(50% - 185px);
+}
+.span {
+  font-size: var(--font-size-13xl);
+}
+.wellBeEarthContainer {
+  position: absolute;
+  top: 73px;
+  left: calc(50% - 52px);
+  font-size: var(--font-size-21xl);
+}
+.div2 {
+  position: absolute;
+  top: 65px;
+  left: 593px;
+  font-size: var(--font-size-base);
+}
+.ellipseIcon,
+.frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frame {
+  width: 1182px;
+  height: 829px;
+  overflow: hidden;
+}
+.ellipseIcon {
+  width: 212px;
+  height: 164.8px;
+}
+.div3,
+.frame1 {
+  position: absolute;
+  top: 50px;
+  left: 28px;
+}
+.frame1 {
+  top: 58px;
+  left: 1257px;
+  width: 212px;
+  height: 164.8px;
+  overflow: hidden;
+  text-align: center;
+}
+.aboutWellBeEarth {
+  position: undefined;
+  width: 1595px;
+  height: 832px;
+  margin-left: 69px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-baloo-2);
+}

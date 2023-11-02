@@ -1,0 +1,95 @@
+.donationBeneathChild {
+  position: relative;
+  width: 1440px;
+  height: 296px;
+}
+.child,
+.div1 {
+  position: absolute;
+}
+.child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-71xl);
+  background-color: var(--color-white);
+  width: 281px;
+  height: 48px;
+}
+.div1 {
+  top: 14px;
+  left: 43px;
+}
+.div2 {
+  top: 14px;
+  left: 237px;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  text-align: left;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+.div,
+.div2,
+.item {
+  position: absolute;
+}
+.item {
+  top: 9px;
+  left: 205px;
+  border-radius: 50%;
+  background-color: var(--color-khaki-100);
+  width: 29px;
+  height: 29px;
+}
+.div {
+  top: 124px;
+  left: 70px;
+  width: 281px;
+  height: 48px;
+}
+.p {
+  margin: 0;
+}
+.div3 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 215.5px);
+  color: var(--color-gray);
+}
+.frame1 {
+  position: relative;
+  width: 431px;
+  height: 172px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.donationBeneath,
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.frame {
+  width: 927px;
+  height: 212px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  padding: var(--padding-0) var(--padding-460xl) var(--padding-0)
+    var(--padding-0);
+  margin-left: -933px;
+}
+.donationBeneath {
+  position: absolute;
+  top: 2193px;
+  left: 0;
+  width: 1440px;
+  height: 40px;
+  padding: var(--padding-277xl) var(--padding-480xl) var(--padding-0);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkorange);
+  font-family: var(--font-inter);
+}

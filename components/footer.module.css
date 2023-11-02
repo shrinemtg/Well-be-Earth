@@ -1,0 +1,91 @@
+.footerChild {
+  position: absolute;
+  top: 288px;
+  left: 0;
+  background-color: var(--color-khaki-100);
+  width: 1440px;
+  height: 232px;
+}
+.span {
+  text-transform: uppercase;
+}
+.tonarinoMicchanlnc {
+  position: absolute;
+  top: 497px;
+  left: calc(50% - 55px);
+  display: inline-block;
+  width: 110px;
+}
+.maskGroupIcon {
+  position: absolute;
+  top: 275px;
+  left: calc(50% - 71px);
+  width: 141px;
+  height: 198.1px;
+  object-fit: cover;
+}
+.frameChild {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+.instagram {
+  display: inline-block;
+  width: 76px;
+}
+.instagram,
+.youtube,
+.youtube1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.youtube {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.youtube1 {
+  display: inline-block;
+  width: 63px;
+}
+.groupParent {
+  position: absolute;
+  top: 465px;
+  left: 593px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-4xl);
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 462px;
+  object-fit: cover;
+}
+.tonarinoMicchanlnc1 {
+  position: absolute;
+  top: 497px;
+  left: calc(50% - 706px);
+  display: inline-block;
+  width: 110px;
+  height: 14px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.footer {
+  position: absolute;
+  top: 3943px;
+  left: 0;
+  width: 1440px;
+  height: 520px;
+  text-align: left;
+  font-size: var(--font-size-4xs);
+  color: var(--color-white);
+  font-family: var(--font-baloo-2);
+}
